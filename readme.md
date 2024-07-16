@@ -1,6 +1,7 @@
 ## Installation
 
 In vscode install plugin `Latex Workshop` to enable save auto-compile.
+
 REMEMBER to change typesetting engine to XeLaTex!! (Tex -> Commands -> Build
 LaTeX project -> Recipe: latexmk(xelatex))
 
