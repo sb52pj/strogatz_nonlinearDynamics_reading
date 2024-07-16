@@ -8,6 +8,13 @@ LaTeX project -> Recipe: latexmk(xelatex))
 First time running might need download required packages and repeat compiling
 for 3-5 times. 
 
+For large pdf compression Use gswin64 (Ghostscript, often included in tex
+package)
+```
+gswin64 -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dNOPAUSE -dQUIET
+-dBATCH -dPrinted=false -sOutputFile=foo-compressed.pdf reading_weekly.pdf
+```
+
 ## Contents
 
 `demo_xxx.py` for python  
